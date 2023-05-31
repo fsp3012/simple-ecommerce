@@ -1,0 +1,139 @@
+/* .App {
+  text-align: center;
+} */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.text-orange {
+  color: hsl(26, 100%, 55%) !important;
+}
+.bg-orange {
+  background-color: hsl(26, 100%, 55%) !important;
+}
+.bg-paleorange {
+  background-color: hsl(25, 100%, 94%) !important;
+}
+.text-gray {
+  color: hsl(219, 9%, 45%) !important;
+}
+.bg-gray {
+  background-color: hsl(223, 64%, 98%);
+}
+ul li {
+  list-style-type: none;
+}
+ul {
+  display: none !important;
+}
+ul.active {
+  display: flex !important;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 50px;
+  background-color: white;
+  z-index: 4;
+  width: 50vw;
+  height: 150vh;
+  left: 0px;
+}
+.close {
+  display: none;
+}
+.close.active {
+  display: block;
+  z-index: 10;
+}
+.imgg img:hover{
+  border: 2px solid  hsl(26, 100%, 55%);
+  border-radius:10px
+  /* background-color: red !important; */
+}
+.menu.active {
+  display: none;
+}
+
+.mw1240 {
+  max-width: 1240px;
+  width: 90%;
+}
+.desktopsneaker1 {
+  width: 35% !important;
+}
+.desktopsneakers {
+  width: 5% !important;
+}
+.deskcontainer {
+  /* border: 1px solid red !important; */
+  width: 90% !important;
+}
+.mob {
+  width: 100% !important;
+  height: 400px !important;
+}
+.modall img:hover {
+  background-color: white;
+  opacity: 0.5;
+}
+.deletee:hover{
+  background-color:hsl(26, 100%, 55%) ;
+}
+.addtocart{
+  width: 80% !important;
+  height: 30% !important;
+  border-radius: 5px;
+  top: 40px;
+  left: 50px ;
+}
+.addtocart p{
+  font-size: 11px !important;
+}
+@media (min-width:768px){
+  .addtocart{
+    width: 50% !important;
+    height: 25% !important;
+    border-radius: 5px;
+    top: 40px;
+    left: 350px ;
+  }
+  .deletx{
+    width: 50px !important;
+  }
+  .delet p{
+    font-size: 15px !important;
+  }
+}
+@media(max-width:769px){
+  .mobwidth{
+    width: 100%;
+  }
+  ul li:hover{
+    color:hsl(26, 100%, 55%);
+    /* padding-top: 6px; */
+  }
+}
+@media (min-width: 1024px) {
+  .mww1240 {
+    max-width: 1240px;
+    width: 90%;
+  }
+  .addtocart{
+    top: 40px;
+    left: 65% !important;
+    width: 30% !important;
+    height: 30% !important;
+    border: 1px solid gray;
+    box-shadow: 30px;
+  }
+  .deskwidth{
+    width: 10vw;
+  }
+  ul li:hover{
+    border-bottom: 3px solid hsl(26, 100%, 55%);
+    padding-top: 6px;
+  }
+  .clickimg{
+    width: 30vw !important;
+  }
+}
